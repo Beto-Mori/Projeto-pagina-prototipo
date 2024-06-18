@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma página só com HTML">
+    <title>Testes e estudos de HTML</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/reset.css">
+</head>
+
+<body>
+    <h1 id="titulo">Uma página para estudos de HTML e CSS</h1>
+
+    <h2>Formatação de de textos:</h2>
+
+    <h3>A tag <i>p</i> é utilizada para escrevermos parágrafos.</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos kum unde repellat. Nisi voluptates hic magnam, dicta maxime eaque nemo fugiat cupiditate repellendus, saepe ipsam neque eligendi id, nam incidunt?</p>
+
+    <p>Este texto está em <strong>negrito</strong></p>
+
+    <p>Este texto está em <i>italico</i></p>
+
+    <p>Este texto está <u>sublinhado</u></p>
+
+    <p>Este texto está <s>tachado</s></p>
+
+    <h2>Comentários:</h2>
+
+    <p>Os comentários são úteis para anotar futuras melhorias no código, mas não é interessante mante-los após a finalização do projeto. </p>
+
+    <!--  comentários são feitos assim
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsa.</p>
+       -->
+
+    <h2>Links externos:</h2>
+
+    <!-- mudar o link para o link do meu portifolio -->
+    <a href="https://youtube.com" target="_blank">Clique aqui e saia desta página</a>
+
+    <h2>Links internos:</h2>
+
+    <!-- mudar o link para uma pagina com meus contatos -->
+    <a href="contato.html">Clique aqui e vá para outra parte desta página</a>
+
+    <h2>Imagens:</h2>
+
+    <img src="src/images/Céu azul.jpeg" alt="foto do céu azul com algumas folhas de árvore aparecendo" title="foto do céu azul com algumas folhas de árvore aparecendo">
+
+    <img src="https://placehold.co/400" alt="placeholder">
+
+    <h2>Listas:</h2>
+
+    <h3>Lista não ordenada</h3>
+
+    <ul>
+        <li>Café</li>
+        <li>Filtro de Café</li>
+        <li>Bolo de chocolate</li>
+        <li>Energético</li>
+    </ul>
+
+    <h3>Lista ordenada</h3>
+
+    <ol>
+        <li>Roberto</li>
+        <li>Renan</li>
+        <li>Laura</li>
+        <li>Pedro</li>
+    </ol>
+
+    <h2>Tabelas:</h2>
+
+    <table>
+        <style>
+            table, th, td {
+                border: 1px solid black
+            }
+        </style>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Informações adicionais</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>Dias</td>
+                <td>23</td>
+                <td>Estudante</td>
+           </tr>
+           <tr>
+               <td>Maria</td>
+               <td>Joaquina</td>
+               <td>25</td>
+               <td>Programadora</td>
+           </tr>
+           <tr>
+               <td>Ana</td>
+               <td>Clara</td>
+               <td>27</td>
+               <td>Programadora</td>
+           </tr>
+        </tbody>
+    </table>
+
+    <h2>CSS inline - <strong>NÃO RECOMENDADO</strong> : </h2>
+
+    <p>Esta abordagem não é recomendada, pois a manutenção do código se torna desnecessariamente trabalhosa e repetitiva</p>
+
+    <h2>CSS interno - <strong>NÃO RECOMENDADO</strong> : </h2>
+
+    <p>Para esta estilização ser aplicada: colocariamos uma <i>tag style</i> no <i>head</i> da página e a estilização seria feita de forma parecida com o CSS padrão, seria mais fácil a manutenção porém ainda não é o ideal.</p>
+
+    <h2>CSS externo - RECOMENDADO :</h2>
+    <p>Esta abordagem é a recomendada para a estilização de páginas HTML, pois deivide as funções para seus respectivos diretórios. </p>
+
+    <h2>Cores no CSS:</h2>
+
+    <ol>
+        <li class="cor">As cores chapadas, apenas com o nome da cor</li>
+        <li class="rgb">Usando rgb - red, green, blue.</li>
+        <li class="rgba">Usando rgba - red, green, blue e uma opacidade.</li>
+        <li class="hexa">Por hexadecimal, onde 0 é a menor cor e a maior cor será F, conforme essa ordem: 0 1 2 3 4 5 6 7 8 9 A B C D E F </li>
+    </ol>
+
+    <h2>Classes e Id's no CSS:</h2>
+
+    <h3><i>Margin, padding</i> e <i>border</i> no CSS</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in aspernatur, non nihil consequuntur adipisci iure? Praesentium illo dolorum accusantium exercitationem impedit possimus excepturi cupiditate ea totam, doloremque sunt</p> 
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a in aspernatur, non nihil consequuntur adipisci iure? Praesentium illo dolorum accusantium exercitationem impedit possimus excepturi cupiditate ea totam, doloremque sunt</p>
+
+    <h2 class="modeloscaixas">Modelos de caixas no CSS:</h2>
+
+    <p class="caixa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, praesentium ipsam. Saepe voluptate autem animi distinctio veritatis provident, molestias placeat laboriosam praesentium. Necessitatibus voluptatem, nam laudantium rem deleniti laborum ipsum.</p>
+
+    <p class="caixa">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, iste. Nostrum velit unde praesentium pariatur. Blanditiis assumenda incidunt ratione, temporibus corporis, corrupti fugit voluptatem consequatur sed eveniet exercitationem! A, atque.</p>
+
+    <p>Um ponto importante: não é recomnedado o usar de mais de  uma vez o atributo <i>id</i> por página </p>
+
+    <p>O atributo <i>class</i> é o recomendado para a estilização de mais de um elemento por vez</p>
+
+    <h2>Divs e Span no CSS</h2>
+
+    <div class="produto">
+        <h3>Polystation</h3>
+
+        <p class="descricao-pruduto promocao">
+            Um baita <span> vídeo game</span>
+        </p>
+        <p>R$ 3000,00</p>
+    </div>
+
+    <div class="produto">
+        <h3>PC com led boladão</h3>
+
+        <p class="descricao-pruduto">
+            Um <span>PC</span> pra ninguém botar defeito
+        </p>
+        <p>R$ 10000,00</p>
+    </div>
+
+</body>
+
+<footer>
+    <p class="rodape">Feito com carinho como parte e início dos estudos sobre programação do curso DevQuest </p>
+</footer>
+
+</html>

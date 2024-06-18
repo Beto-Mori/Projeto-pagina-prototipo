@@ -1,0 +1,64 @@
+#titulo{
+    background-color: antiquewhite;
+}
+
+h2 {
+    background-color: blueviolet;
+    border: solid 3px;
+}
+
+p{
+    font-size: 23px;
+    margin: 30px 0 60px;
+    padding: 20px;
+    border: solid 3px;
+    background-color: bisque;
+}
+
+.cor{
+    color: red;
+}
+
+.rgb{
+    /* color: rgb(red, green, blue); */
+    color: rgb(0, 255, 0);
+}
+
+.rgba{
+    /* color: rgba(red, green, blue, alpha); */
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.hexa{
+    /* color: #; */
+    color: #715639;
+}
+
+.caixa{
+    color: blue;
+    margin: 20px;
+    padding: 10px;
+    border: solid 10px blue;
+    background-color: aquamarine;
+}
+
+.produto {
+    color: blue;
+    margin: 20px;
+    padding: 10px;
+    border: solid 10px blue;
+    background-color: aquamarine;
+}
+
+.produto span {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.rodape {
+    color: green;
+    margin: 20px;
+    padding: 10px;
+    border: solid 10px green;
+    background-color: greenyellow;
+}
