@@ -1,6 +1,5 @@
-# Projeto Página aula
-Uma página dedicada a novos desenvolvedores web, repleta de dicas, "easter eggs" e explicações das tags HTML e formatações de CSS. 💻
-
+# Projeto Página protótipo
+Página protótipo para testes e estudos
 ## Tecnologias utilizadas
 - HTML
 - CSS
